@@ -19,6 +19,6 @@ app.use((res,req,next)=> {
 //routes
 app.use("/",index);
 
-app.listen(80,
+app.listen(443,
 	() => console.log("running at port 3000...")
 );
