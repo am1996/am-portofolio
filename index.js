@@ -4,7 +4,6 @@ let express = require("express"),
 	index = require("./apps/main.js"),
 	app = express();
 //middleware
-var port = process.env.PORT || 8000;
 nunjucks.configure('views', { //views file
     autoescape: true,
     express: app
@@ -20,6 +19,7 @@ app.use((res,req,next)=> {
 //routes
 app.use("/",index);
 
-app.listen(port,
-	() => console.log("running at port 3000...")
-);
+const port = process.env.PORT || 8080;
+app.listen(port, () => {
+  console.log('Express server listening on port', port)
+});
