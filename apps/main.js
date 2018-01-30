@@ -42,7 +42,7 @@ router.post("/contact",(req,res)=>{
 	// send mail with defined transport object
 	transporter.sendMail(mailOptions, (error, info) => {
 		if (error) {
-			return console.log(error);
+			
 		}
 	});
 	res.redirect("/success");
