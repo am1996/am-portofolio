@@ -1,0 +1,463 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  overflow-x: hidden;
+}
+.text {
+  font-family: "Oswald";
+  font-size: 4vw;
+  display: inline-block;
+  border-bottom: 1px solid white;
+  color: white;
+  padding-top: 10px;
+}
+.clear-fix {
+  clear: both;
+}
+.nav-bg {
+  border-bottom: solid white 1px;
+  background: #000;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+}
+.jumbotron {
+  display: block;
+  position: relative;
+  font-family: roboto;
+  background: black;
+  color: white;
+  width: 100%;
+}
+.container {
+  max-width: 80%;
+  margin: auto;
+  color: white;
+  padding: 0 40px;
+}
+.container2 {
+  max-width: 80%;
+  margin: auto;
+  color: white;
+  padding: 0 40px;
+}
+/* navbar start */
+#logo{
+  float:left;
+  margin-top:5.5px;
+}
+nav .container ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  float: right;
+  display: inline-block;
+}
+nav .container ul li {
+  height: 100%;
+  display: inline-block;
+  padding: 0 10px;
+  cursor:pointer;
+}
+nav .container ul li a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  color: white;
+  line-height: 60px;
+  cursor:pointer;
+}
+nav .container ul li:hover {
+  background: white;
+}
+nav .container ul li:hover a {
+  color: black;
+}
+/*menuButton start*/
+nav .container .button {
+  display: none;
+  cursor: pointer;
+  position: relative;
+  margin: 8px 0;
+  float: right;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+/* navbar end*/
+/*Home start*/
+.home {
+  background: black;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  filter: grayscale(80%);
+  color: white;
+  position: relative;
+  z-index: -99;
+  text-align: center;
+  box-sizing: border-box;
+}
+.home #js {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+}
+.home .pic{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-image:url("../img/background.jpg");
+  background-size:cover;
+  background-position: 50% 50%;
+}
+.home .text {
+  position: absolute;
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 0;
+}
+.home  div  p {
+  margin: 0;
+  font-size: 9vw;
+}
+/*Home end*/
+/*about start*/
+.about {
+  font-family: roboto;
+  background: black;
+  color: white;
+  width: 100%;
+  padding-bottom:10px;
+}
+.about h2 {
+  font-family: 'calibri', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+}
+.about p {
+  padding-top: 5px;
+  font-size: 3vw;
+  font-family: "Oswald", san-serif;
+  margin: 0;
+  text-align: justify;
+  margin-bottom:10px;
+}
+.about .skills {
+  text-align: center;
+}
+.about .skills p {
+  text-align: center;
+}
+.about .skills .skill {
+  width: 47.5%;
+  display: inline-block;
+  margin: 0;
+}
+.about .skills .skill:nth-child(odd) {
+  float: left;
+}
+.about .skills .skill:nth-child(even) {
+  float: right;
+}
+.about .skills .skill p {
+  margin-bottom: 2px;
+}
+.about .skills .skill div {
+  position: relative;
+  width: 100%;
+  background: white;
+  height: 25px;
+  border: 4px solid white;
+  border-radius: 50px;
+}
+.about .skills span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background: repeating-linear-gradient(
+    -55deg,
+    #222,
+    #222 10px,
+    #333 10px,
+    #333 20px
+  );
+  height: 100%;
+  display: block;
+  border-radius: 50px;
+}
+/*about end*/
+/* protofolio start*/
+.porto .works {
+  background: black;
+  padding-top: 10px;
+  display:grid;
+  height:100%;
+  grid-template-columns:1fr 1fr 1fr;
+  justify-items:stretch;
+  grid-gap:10px;
+}
+.porto .works .work {
+  border-radius: 5px;
+  border: solid white 3px;
+  height: 200px;
+  box-sizing: border-box;
+  position:relative;
+  overflow:hidden;
+  background-size: contain;
+  background-position: 50% 50%;
+}
+
+.porto .works .work .blank {
+  display: block;
+  text-align:center;
+  position:relative;
+  top:200px;
+  width:100%;
+  height:100%;
+  background: white;
+  transition:all 0.3s ease-in-out;
+}
+.porto .works .work:hover .blank{
+  top:140px;
+  transition:all 0.3s ease-in-out;
+}
+.porto .works .work .blank button{
+  margin:10px 5px;
+  color:black;
+  background:white;
+  font-family: 'Roboto medium', sans-serif;
+  font-size:15px;
+  padding:5px 12.5px;
+  outline:0;
+  border:2px black solid;
+  box-sizing:border-box;
+  border-radius:4px;
+  cursor:pointer;
+  transition:all 0.2s linear;
+}
+.porto .works .work .blank button:hover{
+  background:black;
+  color:white;
+  transition:all 0.2s linear;
+}
+.porto .works .work .blank button:active{
+  box-shadow:0 0 0px 2.5px #aaa;
+}
+.porto .works .work:last-of-type{
+  margin-bottom:0;
+}
+/* protofolio end*/
+/* contact start */
+.contact .content{
+  padding-bottom:20px;
+}
+.contact .col-6{
+  width:47.5%;
+  display:inline-block;
+  position:relative;
+  margin-top:5px;
+}
+.contact .col-6.right{
+  float:right;
+}
+.col-6 p{
+  font-family:"Oswald";
+  padding:0;
+  margin:0;
+}
+.col-6 .btn{
+  padding: 7px 13.5px;
+  font-size:21px;
+  background:#333;
+  border:0;
+  border-radius:5px;
+  outline:0;
+  color:white;
+  cursor:pointer;
+  margin:6px 3px;
+  transition:all 0.2s linear;
+}
+.col-6 .btn:hover{
+  background:white;
+  color:black;
+}
+.col-6 .btn:active{
+  box-shadow:0 0 0px 2.5px #999;
+}
+.btns{
+  width:100%;
+  text-align:center;
+  padding:30px 0;
+}
+.btns a{
+  text-decoration: none;
+}
+.contact form > *{
+  display:block;
+  box-sizing:border-box;
+}
+.clicked{
+  outline:5px solid #343434;
+  transition:all 0.2s linear;
+}
+.contact form input:not([type="submit"]){
+  width:100%;
+  padding:10px;
+  background:#333;
+  border: solid white 3px;
+  color:white;
+  font-family:"Oswald";
+  font-size:15px;
+  border-radius:1px;
+}
+.contact form textarea{
+  width:100%;
+  background:#333;
+  height:200px;
+  padding:10px;
+  color:white;
+  resize:none;
+  border:3px solid white;
+  font-family:"Oswald";
+  font-size:15px;
+  border-radius:1px;
+}
+.contact form input[type="submit"]{
+  font-size:17.5px;
+  font-family:'Roboto medium', sans-serif;
+  margin-top:10px;
+}
+.contact form label:nth-child(1){
+  margin-top:0;
+}
+.contact form label{
+  margin-top: 15px;
+  font-family:oswald;
+  font-size:15px;
+  margin-bottom:5px;
+}
+.contact .container2 p a{
+  color:white;
+}
+/* contact end   */
+/* footer start */
+footer{
+  border-top:1px solid white;
+}
+footer .container2 p{
+  margin:0;
+  text-align:center;
+  font-family:"Oswald";
+  padding:20px 0px;
+}
+/* footer   end */
+
+/* responsive start */
+@media only screen and (max-width: 768px) {
+  #logo{
+    margin-left: 20px;
+  }
+  .container {
+    max-width: 100%;
+    padding: 0 0;
+    padding-left: 0;
+  }
+  nav .container .button {
+    display: block;
+    margin-top: 10.5px;
+    margin-bottom: 10.5px;
+    margin-right: 20px;
+  }
+  nav .container ul {
+    width: 100%;
+    display: none;
+    overflow: hidden;
+  }
+  nav .container ul li {
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  nav .container ul li a {
+    padding-left: 40px;
+  }
+  .about .skills .skill {
+    width: 100%;
+    margin: 0;
+  }
+  /*portofolio start*/
+  .porto .works{
+    height:100%;
+    grid-template-columns:1fr 1fr;
+    justify-items:stretch;
+    grid-gap:10px;
+  }
+  /*portofolio end*/
+  .contact .col-6{
+    width:100%;
+    display:block;
+    position:relative;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .text {
+    font-size: 25px;
+  }
+  .porto .works{
+    height:100%;
+    grid-template-columns:1fr;
+    justify-items:stretch;
+    grid-gap:10px;
+  }
+  .container {
+    max-width: 100%;
+    padding: 0 0;
+    padding-left: 0;
+  }
+
+  /*about start*/
+  .about .skills .skill {
+    width: 100%;
+    margin: 0;
+  }
+  .about .text {
+    font-size: 25px;
+  }
+  .about p {
+    font-size: 20px;
+    text-align: left;
+  }
+  /*about end*/
+}
+/* responsive end */

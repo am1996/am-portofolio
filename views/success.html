@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<link rel="shortcut icon" type="image/png" href="/img/icon.png"/>
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<style>
+			.fullpage{
+				background:black;
+				position:absolute;
+				top:0;
+				right:0;
+				left:0;
+				bottom:0;
+				color:white;
+				font-family:oswald;
+			}
+			.container{
+				width: 80vw;
+				margin:auto;
+				position:absolute;
+				top:50%;
+				left:50%;
+				transform:translate(-50%,-50%);
+				display:flex;
+			}
+			.fullpage img{
+				width:30vw;
+				height: 30vw;
+			}
+			.fullpage .text{
+				font-size:2.5vw;
+			}
+			.fullpage .text h1,h3{
+				margin:0;
+			}
+			.btn{
+				color:#000;
+				background:#fff;
+				text-decoration: none;
+				padding:10px;
+				border-radius:3px;
+				font-family:calibri;
+				transition:all 0.2s linear;
+			}
+			.btn:active{
+  				box-shadow:0 0 0px 3px rgba(256,256,256,0.3);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="fullpage">
+			<div class="container">
+				<img src="/img/success.png" alt="404">
+				<div class="text">
+					<h1>Success</h1>
+					<h3>Your mail was sent !</h3>
+					<br>
+					<a href="/" class="btn">Go Back</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/png" href="/img/icon.png"/>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<title>AM</title>
+</head>
+<body>
+	<!-- navbar start -->
+	<nav>
+	  <div class="nav-bg">
+	    <div class="container">
+	      <div class="button" onclick="myFunction(this)">
+	        <div class="bar1"></div>
+	        <div class="bar2"></div>
+	        <div class="bar3"></div>
+	      </div>
+	      <div id="logo">
+	      	<a href="/"><img src="/img/Untitled-2.png"/></a>
+	      </div>
+	      <ul>
+	        <li><a>HOME</a></li>
+	        <li><a>ABOUT</a></li>
+	        <li><a>PROTOFOLIO</a></li>
+	        <li><a>CONTACT</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<!-- navbar start -->
+	<!-- Home start -->
+	<main>
+	  <div class="home" id="home">
+	    <div>
+	      <div id="particles" class="pic">
+	      </div>
+	      <div class="text">
+	        <p id="head"></p>
+	      </div>
+	    </div>
+	  </div>
+	</main>
+	<!-- Home start -->
+	<!-- about start -->
+	<div class="about" id="about">
+	  <div class="container2">
+	    <div class="text">About Me</div>
+	    <p>Welcome to my personal portofolio. Hi, My name is Ahmed and i'm a self taught web developer.I started learning how to build website about 2 years ago and i'm still learning .I like software development, computers and technology in general and i'm
+	      really passionate about learning new languages and technologies.</p>
+	    <div class="text">Skills</div>
+	    <div class="skills">
+	      <div class="skill">
+	        <p>Python</p>
+	        <div><span style="width:80%">85%</span></div>
+	      </div>
+	      <div class="skill">
+	        <p>HTML/CSS</p>
+	        <div><span style="width:90%">90%</span></div>
+	      </div>
+	      <div class="skill">
+	        <p>Javascript</p>
+	        <div><span style="width:75%">75%</span></div>
+	      </div>
+	      <div class="skill">
+	        <p>PHP/SQL</p>
+	        <div><span style="width:65%">65%</span></div>
+	      </div>
+	      <div class="skill">
+	        <p>Illustrator/photoshop</p>
+	        <div><span style="width:80%">80%</span></div>
+	      </div>
+	      <div class="clear-fix"></div>
+	    </div>
+	  </div>
+	</div>
+	</div>
+	<!-- about end -->
+	<!-- portofolio start -->
+	<div class="porto">
+	  <div class="jumbotron">
+	    <div class="container2">
+	      <div class="text">Portofolio</div>
+	      <div class="works">
+	      	{% for item in items %}
+	        <div style="background-image:url({{item.img}});" class="work">
+	          <div class="blank">
+	          <button>More info</button>
+	          <a target="_blank" href="{{item.link}}">
+	          	<button>Go there</button>
+	          </a>
+	          </div>
+	        </div>
+	        {% endfor %}
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- portofolio end -->
+	<!-- contact start -->
+	<div class="contact">
+	  <div class="jumbotron">
+	    <div class="container2">
+	      <div class="text">Contact Me</div>
+	      <div class="content">
+	        <div class="col-6">
+	          <p>You can contact me through my phone number, email or one of my social media accounts.</p>
+	          <p><span>Phone number: <a href="tel:02313523524">02313523524</a></span></p>
+	          <p><span>Email: <a href="mailto:mmogamer2.am@gmail.com">mmogamer2.am@gmail.com</span></a></p>
+	          <div class="btns">
+	            <a target="_blank" href="https://codepen.io/Anon_12/">
+	            	<button class="btn"><i class="fa fa-fw fa-codepen"></i></button>
+	            </a>
+	            <a target="_blank" href="https://www.facebook.com/ahmed.eldabaa.9">
+	           		<button class="btn"><i class="fa fa-fw fa-facebook"></i> </button>
+	           	</a>
+	            <a target="_blank" href="https://twitter.com/ahmedmagdyam96?lang=en"><button class="btn"><i class="fa fa-fw fa-twitter"></i></button></a>
+	            <a target="_blank" href="https://plus.google.com/111098731998366339134"><button class="btn"><i class="fa fa-fw fa-google-plus"></i> </button></a>
+				<a target="_blank" href="https://github.com/am1996/">
+	            	<button class="btn"><i class="fa fa-fw fa-github"></i> </button>
+	            </a>
+	          </div>
+	        </div>
+	        <div class="col-6 right">
+				<form method="post" action="/contact" class="form">
+					<label class="first-one">Name*</label>
+					<input name="name" type="text">
+					<label>Email*</label>
+					<input name="email" type="email">
+					<label>Your Message*</label>
+					<textarea name="message" resize="noresize"></textarea>
+					<input class="btn" type="submit" value="Contact Me">
+				</form>
+	        </div>
+	        <div class="clear-fix"></div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- contact end   -->
+	<!-- footer start  -->
+	<footer>
+	  <div class="jumbotron">
+	    <div class="container2">
+	      <p>Copyright 	&copy; 2017 AM</p>
+	    </div>
+	  </div>
+	</footer>
+	<!-- footer   end  -->
+	<script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
+	<script src="/js/typed.min.js"></script>
+	<script type="text/javascript" src="/js/main.js"></script>
+</body>
+</html>

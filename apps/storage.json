@@ -1,0 +1,44 @@
+[
+	{
+		"name":"Marketplatz",
+		"description":"A website template for an online market to publish products and purchase it.",
+		"img":"/img/marketplatz.jpg",
+		"link":"http://admiring-heisenberg-b2b109.bitballoon.com/"
+	},
+	{
+		"name":"Manager",
+		"description":"A template for a content managment system website.",
+		"img":"/img/manager.jpg",
+		"link":"http://kind-meninsky-d3528f.bitballoon.com/"
+	},
+	{
+		"name":"WiredWiki",
+		"description":"",
+		"img":"/img/wiredwiki.jpg",
+		"link":"http://head-hunter-norma-22030.bitballoon.com/"
+	},
+	{
+		"name":"Classic",
+		"description":"A template for a webite for a team of developer and designers.",
+		"img":"/img/classic.jpg",
+		"link":"http://instructor-antelope-87275.bitballoon.com/"
+	},
+	{
+		"name":"Focal",
+		"description":"A single page portofolio for a front end developer.",
+		"img":"/img/focal.jpg",
+		"link":"http://compassionate-golick-d0d148.bitballoon.com/"
+	},
+	{
+		"name":"Avire",
+		"description":"A custom made website for a fictional design and development company",
+		"img":"/img/avire.jpg",
+		"link":"http://angry-pike-fef67b.bitballoon.com/"
+	},
+	{
+		"name":"Form",
+		"description":"A custom form to know what is the most used tools among web developers.",
+		"img":"",
+		"link":"http://peaceful-wilson-124aee.bitballoon.com/"
+	}
+]
