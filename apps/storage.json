@@ -44,7 +44,7 @@
 	{
 		"name":"DevBooks",
 		"description":"A website i developed frontend and back end as an online free bookstore.",
-		"img":"",
+		"img":"/img/devbooks.jpeg",
 		"link":"https://dev--books.herokuapp.com/"
 	}
 ]
