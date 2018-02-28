@@ -46,5 +46,17 @@
 		"description":"A website i developed frontend and back end as an online free bookstore.",
 		"img":"/img/devbooks.jpeg",
 		"link":"https://dev--books.herokuapp.com/"
+	},
+	{
+		"name":"redditSearch",
+		"description":"A website i developed frontend and back end as an online free bookstore.",
+		"img":"/img/redditsearch.jpg",
+		"link":"http://reddit-search.bitballoon.com/"
+	},
+	{
+		"name":"idea",
+		"description":"A website built using bootstrap for a non existing company.",
+		"img":"/img/idea.jpg",
+		"link":"http://idea-theme-0001.bitballoon.com/index.html"
 	}
 ]
