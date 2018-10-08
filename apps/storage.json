@@ -82,5 +82,12 @@
 		"description":"Website for a windows program to modify pdf files.",
 		"img":"/img/pdfcutter.jpg",
 		"link":"https://pdfcuttermerger.netlify.com/"
+	},
+	{
+		"id":12,
+		"name":"A-Minifier",
+		"description":"A Minifier is a simple website built to be used to minify html,css,js document. It is build using vue.js.",
+		"img":"/img/minifier.jpg",
+		"link":"https://a-minifier.netlify.com/"
 	}
 ]
