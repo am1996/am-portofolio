@@ -233,7 +233,9 @@ nav .container .button {
   box-sizing: border-box;
   position:relative;
   overflow:hidden;
+  background-color:#212121;
   background-size: contain;
+  background-repeat:no-repeat;
   background-position: 50% 50%;
 }
 

@@ -16,7 +16,7 @@
 	{
 		"id":2,
 		"name":"WiredWiki",
-		"description":"",
+		"description":"A website theme built using bootstrap and jquery.",
 		"img":"/img/wiredwiki.jpg",
 		"link":"https://wiredwiki.netlify.com/"
 	},
