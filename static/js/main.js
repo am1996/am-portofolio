@@ -59,4 +59,15 @@ var typed = new Typed('#head', {
   showCursor: false,
 });
 //typedjs end //
-// paritclesjs //
+// information showing button //
+var moreInfoBtns = document.getElementsByClassName("moreInfo");
+for(var i=0;i<moreInfoBtns.length;i++){
+  var modalId = moreInfoBtns[i].parentElement.parentElement.nextElementSibling.id;
+  $("#"+modalId).iziModal({
+    headerColor: '#000',
+  });
+  moreInfoBtns[i].addEventListener("click",(e)=>{
+    var mId = "#modal-" + e.target.id.replace("btn-","");
+    $(mId).iziModal("open");
+  });
+}

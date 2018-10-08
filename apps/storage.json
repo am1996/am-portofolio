@@ -1,71 +1,83 @@
 [
 	{
+		"id":0,
 		"name":"Marketplatz",
 		"description":"A website template for an online market to publish products and purchase it.",
 		"img":"/img/marketplatz.jpg",
 		"link":"http://admiring-heisenberg-b2b109.bitballoon.com/"
 	},
 	{
+		"id":1,
 		"name":"Manager",
 		"description":"A template for a content managment system website.",
 		"img":"/img/manager.jpg",
 		"link":"http://kind-meninsky-d3528f.bitballoon.com/"
 	},
 	{
+		"id":2,
 		"name":"WiredWiki",
 		"description":"",
 		"img":"/img/wiredwiki.jpg",
 		"link":"http://head-hunter-norma-22030.bitballoon.com/"
 	},
 	{
+		"id":3,
 		"name":"Classic",
 		"description":"A template for a webite for a team of developer and designers.",
 		"img":"/img/classic.jpg",
 		"link":"http://instructor-antelope-87275.bitballoon.com/"
 	},
 	{
+		"id":4,
 		"name":"Focal",
 		"description":"A single page portofolio for a front end developer.",
 		"img":"/img/focal.jpg",
 		"link":"http://compassionate-golick-d0d148.bitballoon.com/"
 	},
 	{
+		"id":5,
 		"name":"Avire",
 		"description":"A custom made website for a fictional design and development company",
 		"img":"/img/avire.jpg",
 		"link":"http://angry-pike-fef67b.bitballoon.com/"
 	},
 	{
+		"id":6,
 		"name":"Form",
 		"description":"A custom form to know what is the most used tools among web developers.",
 		"img":"",
 		"link":"http://peaceful-wilson-124aee.bitballoon.com/"
 	},
 	{
+		"id":7,
 		"name":"DevBooks",
 		"description":"A website i developed frontend and back end as an online free bookstore.",
 		"img":"/img/devbooks.jpeg",
 		"link":"https://dev--books.herokuapp.com/"
 	},
 	{
+		"id":8,
 		"name":"redditSearch",
 		"description":"A website i developed frontend and back end as an online free bookstore.",
 		"img":"/img/redditsearch.jpg",
 		"link":"http://reddit-search.bitballoon.com/"
 	},
 	{
+		"id":9,
 		"name":"idea",
 		"description":"A website built using bootstrap for a non existing company.",
 		"img":"/img/idea.jpg",
 		"link":"http://idea-theme-0001.bitballoon.com/index.html"
 	},
 	{
+		"id":10,
 		"name":"shorten-u",
 		"description":"Website to shorten urls and track visitors.",
 		"img":"/img/shorten.jpg",
 		"link":"https://shorten-u.herokuapp.com/"
 	},
 	{
+		"id":11,
 		"name":"PDF Cutter & Merger",
 		"description":"Website for a windows program to modify pdf files.",
 		"img":"/img/pdfcutter.jpg",

@@ -7,7 +7,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="/css/iziModal.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/iziModal.min.js"></script>
 	<title>AM</title>
 </head>
 <body>
@@ -93,11 +96,15 @@
 	      	{% for item in items %}
 	        <div style="background-image:url({{item.img}});" class="work">
 	          <div class="blank">
-	          <button>More info</button>
+	          <button id="btn-{{item.id}}" class="moreInfo">More info</button>
 	          <a target="_blank" href="{{item.link}}">
 	          	<button>Go there</button>
 	          </a>
 	          </div>
+	        </div>
+	        <div data-iziModal-fullscreen="true"  data-iziModal-title="{{item.name}}" class="modal" id="modal-{{item.id}}">
+	        	<img src="{{item.img}}" alt="{{item.title}}">
+	        	<p class="modal-p">{{item.description}}</p>
 	        </div>
 	        {% endfor %}
 	      </div>
@@ -155,9 +162,7 @@
 	  </div>
 	</footer>
 	<!-- footer   end  -->
-	<script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
 	<script src="/js/typed.min.js"></script>
-	<script src="/js/micromodal.min.js"></script>
 	<script type="text/javascript" src="/js/main.js"></script>
 </body>
 </html>

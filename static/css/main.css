@@ -276,6 +276,15 @@ nav .container .button {
 .porto .works .work:last-of-type{
   margin-bottom:0;
 }
+.porto .works .modal{
+  display:none;background:#212121;
+}
+
+div.iziModal-wrap > div{text-align: center;background:#212121;color:#fff;}
+div.iziModal-wrap > div > .modal-p{
+  margin:0;
+  padding:5px;
+}
 /* protofolio end*/
 /* contact start */
 .contact .content{
