@@ -89,5 +89,11 @@
 		"description":"A Minifier is a simple website built to be used to minify html,css,js document. It is build using vue.js.",
 		"img":"/img/minifier.jpg",
 		"link":"https://a-minifier.netlify.com/"
+	},
+	{
+		"name":"Geekspost",
+		"description":"Website made for geeks by geeks to post whatever they see interesting.",
+		"img":"/img/geekspost.jpeg",
+		"link":"https://geekspost.herokuapp.com/"
 	}
 ]
