@@ -91,6 +91,14 @@
 		"link":"https://a-minifier.netlify.com/"
 	},
 	{
+		"id":13,
+		"name":"Placehold-it",
+		"description":"Small widget that can be handy to render placeholder images for frontend web developers.",
+		"img":"/img/placehold-it.jpg",
+		"link":"http://placehold-it.herokuapp.com/"
+	},
+	{
+		"id":14,
 		"name":"Geekspost",
 		"description":"Website made for geeks by geeks to post whatever they see interesting.",
 		"img":"/img/geekspost.jpeg",
