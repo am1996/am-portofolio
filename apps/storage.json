@@ -60,14 +60,14 @@
 		"name":"redditSearch",
 		"description":"A website i developed frontend and back end as an online free bookstore.",
 		"img":"/img/redditsearch.jpg",
-		"link":"http://reddit-search.bitballoon.com/"
+		"link":"https://reddit-search-nkff.netlify.app/"
 	},
 	{
 		"id":9,
 		"name":"idea",
 		"description":"A website built using bootstrap for a non existing company.",
 		"img":"/img/idea.jpg",
-		"link":"http://idea-theme-0001.bitballoon.com/index.html"
+		"link":"https://idea-theme-0001.netlify.app/"
 	},
 	{
 		"id":10,
