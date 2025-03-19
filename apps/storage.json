@@ -4,56 +4,56 @@
 		"name":"Marketplatz",
 		"description":"A website template for an online market to publish products and purchase it.",
 		"img":"/img/marketplatz.jpg",
-		"link":"https://marketplatz.netlify.com/"
+		"link":"https://marketplatz.netlify.app/"
 	},
 	{
 		"id":1,
 		"name":"Manager",
 		"description":"A template for a content managment system website.",
 		"img":"/img/manager.jpg",
-		"link":"https://manager-theme.netlify.com/"
+		"link":"https://manager-theme.netlify.app/"
 	},
 	{
 		"id":2,
 		"name":"WiredWiki",
 		"description":"A website theme built using bootstrap and jquery.",
 		"img":"/img/wiredwiki.jpg",
-		"link":"https://wiredwiki.netlify.com/"
+		"link":"https://wiredwiki.netlify.app/"
 	},
 	{
 		"id":3,
 		"name":"Classic",
 		"description":"A template for a webite for a team of developer and designers.",
 		"img":"/img/classic.jpg",
-		"link":"https://classic-deisgn-company.netlify.com/"
+		"link":"https://classic-deisgn-company.netlify.app/"
 	},
 	{
 		"id":4,
 		"name":"Focal",
 		"description":"A single page portofolio for a front end developer.",
 		"img":"/img/focal.jpg",
-		"link":"https://focal-theme.netlify.com/"
+		"link":"https://focal-theme.netlify.app/"
 	},
 	{
 		"id":5,
 		"name":"Avire",
 		"description":"A custom made website for a fictional design and development company",
 		"img":"/img/avire.jpg",
-		"link":"https://avire-theme.netlify.com/"
+		"link":"https://avire-theme.netlify.app/"
 	},
 	{
 		"id":6,
 		"name":"Form",
 		"description":"A custom form to know what is the most used tools among web developers.",
 		"img":"",
-		"link":"https://custom-form-template.netlify.com/"
+		"link":"https://custom-form-template.netlify.app/"
 	},
 	{
 		"id":7,
 		"name":"DevBooks",
 		"description":"A website i developed frontend and back end as an online free bookstore.",
 		"img":"/img/devbooks.jpeg",
-		"link":"https://dev--books.herokuapp.com/"
+		"link":"https://dev--books.herokuapp.app/"
 	},
 	{
 		"id":8,
@@ -74,35 +74,35 @@
 		"name":"shorten-u",
 		"description":"Website to shorten urls and track visitors.",
 		"img":"/img/shorten.jpg",
-		"link":"https://shorten-u.herokuapp.com/"
+		"link":"https://shorten-u.herokuapp.app/"
 	},
 	{
 		"id":11,
 		"name":"PDF Cutter & Merger",
 		"description":"Website for a windows program to modify pdf files.",
 		"img":"/img/pdfcutter.jpg",
-		"link":"https://pdfcuttermerger.netlify.com/"
+		"link":"https://pdfcuttermerger.netlify.app/"
 	},
 	{
 		"id":12,
 		"name":"A-Minifier",
 		"description":"A Minifier is a simple website built to be used to minify html,css,js document. It is build using vue.js.",
 		"img":"/img/minifier.jpg",
-		"link":"https://a-minifier.netlify.com/"
+		"link":"https://a-minifier.netlify.app/"
 	},
 	{
 		"id":13,
 		"name":"Placehold-it",
 		"description":"Small widget that can be handy to render placeholder images for frontend web developers.",
 		"img":"/img/placehold-it.jpg",
-		"link":"http://placehold-it.herokuapp.com/"
+		"link":"http://placehold-it.herokuapp.app/"
 	},
 	{
 		"id":14,
 		"name":"Geekspost",
 		"description":"Website made for geeks by geeks to post whatever they see interesting.",
 		"img":"/img/geekspost.jpeg",
-		"link":"https://geekspost.herokuapp.com/"
+		"link":"https://geekspost.herokuapp.app/"
 	},
 	{
 		"id":15,
